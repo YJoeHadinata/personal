@@ -1,11 +1,12 @@
 import cv from "../assets/CV.pdf";
-import { motion } from "framer-motion";
+import FadeUpAnimation from "../animations/FadeUpAnimation";
 
 export default function Content() {
   const name = "Yoshua";
   return (
     <>
       {/* Hero Section Start */}
+      <FadeUpAnimation>
       <section
         id="home"
         className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 my-20"
@@ -39,12 +40,13 @@ export default function Content() {
           </div>
         </div>
       </section>
+      </FadeUpAnimation>
       {/* Hero Section Start */}
 
       {/* About Section Start */}
       <section
         id="about"
-        className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 my-20"
+        className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 my-40"
       >
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
           <div>
