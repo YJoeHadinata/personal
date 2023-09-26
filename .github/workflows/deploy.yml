@@ -29,5 +29,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # Atur branch tempat GitHub Pages akan di-deploy
-          FOLDER: build # Folder yang akan di-deploy (biasanya hasil build dari proyek React)
-
+          FOLDER: ./dish # Folder yang akan di-deploy (biasanya hasil build dari proyek React)
