@@ -24,8 +24,13 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#work-experience" className="text-primary hover:text-secondary">
+                <a href="#work" className="text-primary hover:text-secondary">
                   Work Experience
+                </a>
+              </li>
+              <li>
+                <a href="#work" className="text-primary hover:text-secondary">
+                  Download CV
                 </a>
               </li>
             </ul>

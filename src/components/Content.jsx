@@ -1,45 +1,46 @@
 import cv from "../assets/CV.pdf";
 import FadeUpAnimation from "../animations/FadeUpAnimation";
-
+import evelope from "../assets/envelope.svg"
 export default function Content() {
   const name = "Yoshua";
+  
   return (
     <>
       {/* Hero Section Start */}
       <FadeUpAnimation>
-      <section
-        id="home"
-        className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 my-20"
-      >
-        <div className="container flex flex-col sm:flex-row items-center">
-          <div className="flex-1">
-            <h1 className="text-3xl sm:text-5xl md:text-6xl font-sans font-bold">
-              I&apos;m
-              <span className="underline decoration-primary">{name}</span>
-            </h1>
-            <p className="text-xl sm:text-2xl my-5 text-navy opacity-75">
-              Freelance Web & Mobile UI/UX
-              <br /> Designer
-            </p>
-          </div>
+        <section
+          id="home"
+          className="mx-4 sm:mx-8 md:mx-16 lg:mx-32 xl:mx-64 my-20"
+        >
+          <div className="container flex flex-col sm:flex-row items-center">
+            <div className="flex-1">
+              <h1 className="text-3xl sm:text-5xl md:text-6xl font-sans font-bold">
+                I&apos;m
+                <span className="underline decoration-primary">{name}</span>
+              </h1>
+              <p className="text-xl sm:text-2xl my-5 text-navy opacity-75">
+                Freelance Web & Mobile UI/UX
+                <br /> Designer
+              </p>
+            </div>
 
-          <div className="w-full sm:w-1/2">
-            <img
-              src="https://dlmak.droitlab.com/wp-content/uploads/2023/05/hero_img-1.png"
-              className="w-full"
-            />
-            <div className="absolute bottom-0 left-0">
-              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill="#D9832C"
-                  d="M29,-42.6C42.7,-42.4,62.4,-44.9,70.4,-38.2C78.5,-31.6,75,-15.8,72,-1.8C68.9,12.3,66.4,24.6,61.1,36C55.8,47.5,47.8,58.2,37.2,67.4C26.5,76.7,13.3,84.4,-0.5,85.4C-14.3,86.3,-28.7,80.4,-35.5,69C-42.4,57.6,-41.8,40.7,-47.7,28.3C-53.6,15.8,-66.1,7.9,-68.1,-1.1C-70.1,-10.2,-61.6,-20.4,-52.6,-27.6C-43.6,-34.7,-34.1,-38.7,-25.3,-41.7C-16.4,-44.7,-8.2,-46.8,-0.3,-46.3C7.7,-45.8,15.4,-42.9,29,-42.6Z"
-                  transform="translate(100 100)"
-                />
-              </svg>
+            <div className="w-full sm:w-1/2">
+              <img
+                src="https://media.licdn.com/dms/image/D5635AQFIZVJt91-c-A/profile-framedphoto-shrink_400_400/0/1696282212835?e=1697385600&v=beta&t=mgZxeCQHl4Nwqq5QZBdMOfECLNQeqG-QJGcHMLwhnKA"
+                className="w-full"
+              />
+              <div className="absolute bottom-0 left-0">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill="#D9832C"
+                    d="M29,-42.6C42.7,-42.4,62.4,-44.9,70.4,-38.2C78.5,-31.6,75,-15.8,72,-1.8C68.9,12.3,66.4,24.6,61.1,36C55.8,47.5,47.8,58.2,37.2,67.4C26.5,76.7,13.3,84.4,-0.5,85.4C-14.3,86.3,-28.7,80.4,-35.5,69C-42.4,57.6,-41.8,40.7,-47.7,28.3C-53.6,15.8,-66.1,7.9,-68.1,-1.1C-70.1,-10.2,-61.6,-20.4,-52.6,-27.6C-43.6,-34.7,-34.1,-38.7,-25.3,-41.7C-16.4,-44.7,-8.2,-46.8,-0.3,-46.3C7.7,-45.8,15.4,-42.9,29,-42.6Z"
+                    transform="translate(100 100)"
+                  />
+                </svg>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </FadeUpAnimation>
       {/* Hero Section Start */}
 
@@ -152,6 +153,9 @@ export default function Content() {
           <h3 className="text-5xl font-sans font-bold underline decoration-primary">
             Contact Me
           </h3>
+        </div>
+        <div className="grid gap-4 grid-cols-3">
+        <div className=""><img src={evelope} /></div>
         </div>
       </section>
       {/* Contact Section End */}
