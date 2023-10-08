@@ -24,7 +24,7 @@ export default function Content() {
               </p>
             </div>
 
-            <div className="w-full sm:w-1/2">
+            <div className="w-full sm:w-1/2 rounded-md">
               <img
                 src="https://media.licdn.com/dms/image/D5635AQFIZVJt91-c-A/profile-framedphoto-shrink_400_400/0/1696282212835?e=1697385600&v=beta&t=mgZxeCQHl4Nwqq5QZBdMOfECLNQeqG-QJGcHMLwhnKA"
                 className="w-full"
