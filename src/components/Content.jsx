@@ -24,10 +24,10 @@ export default function Content() {
               </p>
             </div>
 
-            <div className="w-full sm:w-1/2 rounded-md">
+            <div className="w-full sm:w-1/2">
               <img
                 src="https://media.licdn.com/dms/image/D5635AQFIZVJt91-c-A/profile-framedphoto-shrink_400_400/0/1696282212835?e=1697385600&v=beta&t=mgZxeCQHl4Nwqq5QZBdMOfECLNQeqG-QJGcHMLwhnKA"
-                className="w-full"
+                className="w-full rounded-full"
               />
               <div className="absolute bottom-0 left-0">
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -84,9 +84,7 @@ export default function Content() {
             Work Experiences
           </h3>
           <p className="mt-10 text-navy">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-            unde omnis iste natus
+            Work History
           </p>
         </div>
         <div className="grid gap-4 grid-cols-3">

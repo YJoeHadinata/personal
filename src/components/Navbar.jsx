@@ -1,3 +1,4 @@
+import cv from "../assets/CV.pdf";
 export default function Navbar() {
   return (
     <div className="relative">
@@ -29,7 +30,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#work" className="text-primary hover:text-secondary">
+                <a href={cv} className="text-primary hover:text-secondary">
                   Download CV
                 </a>
               </li>
